@@ -31,7 +31,7 @@ The model was evaluated on four PPE-related classes:
 The training configuration used:
 
 | Setting | Value |
-|---|---:|
+|---|---|
 | Model | YOLOv5s |
 | Pretrained weights | `yolov5s.pt` |
 | Image size | 640 |
@@ -54,8 +54,9 @@ The reported evaluation results from the project are:
 ## Project Structure
 
 ```text
-YOLO5/
-├── yolo5code.ipynb
+PPE-Detection-YOLOv5/
+├── README.md
+├── PPE_Detection_YOLOv5.ipynb
 └── M.txt
 ```
 
