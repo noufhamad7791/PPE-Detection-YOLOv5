@@ -56,7 +56,7 @@ The reported evaluation results from the project are:
 ```text
 PPE-Detection-YOLOv5/
 ├── README.md
-├── PPE_Detection_YOLOv5.ipynb
+├── PPE_Detection_YOLOv5_P.ipynb
 └── M.txt
 ```
 
