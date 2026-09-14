@@ -1,0 +1,93 @@
+Model summary: 157 layers, 7031701 parameters, 0 gradients, 15.8 GFLOPs
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 100% 11/11 [00:06<00:00,  1.58it/s]
+                   all        326       1514      0.961      0.939      0.974      0.752
+                 Boots        326        541      0.975      0.927      0.968      0.711
+                Helmet        326        273      0.971      0.956      0.973      0.691
+                Person        326        302      0.923      0.908      0.967       0.82
+                  Vest        326        398      0.975      0.965      0.987      0.785
+
+
+
+
+a) Intersection Over Union (IoU) per category and overall:
+IoU per class (approx):
+Boots = 0.906
+Helmet = 0.931
+Person = 0.843
+Vest = 0.942
+IoU overall (approx) = 0.901
+
+b) Mean Average Precision (mAP) per category and overall:
+mAP50 per class:
+Boots = 0.968
+Helmet = 0.973
+Person = 0.967
+Vest = 0.987
+mAP50 overall = 0.974
+
+mAP50-95 per class:
+Boots = 0.711
+Helmet = 0.691
+Person = 0.820
+Vest = 0.785
+mAP50-95 overall = 0.752
+
+c) Frames per Second (FPS) / inference speed:
+Inference time per image = 10.71 ms
+FPS = 93.33
+
+d) FLOPs and model size:
+FLOPs = 7.91 GFLOPs
+Parameters = 7.03 Million
+Model size = 13.81 MB
+
+
+
+
+
+------------------------------------------------------------------------------------------
+50
+
+Model summary: 157 layers, 7031701 parameters, 0 gradients, 15.8 GFLOPs
+cuda:0
+val: Scanning /content/NEW/valid/labels.cache... 326 images, 0 backgrounds, 0 corrupt: 100%|██████████| 326/326 [00:00<?, ?it/s]
+                 Class     Images  Instances          P          R      mAP50   mAP50-95: 
+                   all        326       1514      0.966      0.947      0.972       0.77
+                 Boots        326        541      0.975      0.922      0.964      0.716
+                Helmet        326        273      0.971      0.967      0.974       0.72
+                Person        326        302      0.943      0.926      0.964      0.837
+                  Vest        326        398      0.976      0.972      0.987      0.806
+Speed: 0.2ms pre-process, 3.5ms inference, 2.4ms NMS per image at shape (16, 3, 640, 640)
+
+
+a) Intersection Over Union (IoU) per category and overall:
+IoU per class (approx):
+Boots = 0.949
+Helmet = 0.970
+Person = 0.934
+Vest = 0.979
+IoU overall (approx) = 0.958
+
+b) Mean Average Precision (mAP) per category and overall:
+mAP50 per class:
+Boots = 0.964
+Helmet = 0.974
+Person = 0.964
+Vest = 0.987
+mAP50 overall = 0.972
+
+mAP50-95 per class:
+Boots = 0.716
+Helmet = 0.720
+Person = 0.837
+Vest = 0.806
+mAP50-95 overall = 0.770
+
+c) Frames per Second (FPS) / inference speed:
+Inference time per image ≈ 6.1 ms (3.5 + 2.4 ms per image)
+FPS ≈ 75.64
+
+d) FLOPs and model size:
+FLOPs = 15.82 GFLOPs
+Parameters = 7.03 Million
+Model size ≈ 13–14 MB (تقريباً حسب الـweights)
